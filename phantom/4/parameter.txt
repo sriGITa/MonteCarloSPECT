@@ -1,0 +1,15 @@
+128 128 1
+0.10 0.10 0.08
+1
+2
+
+
+
+##### 3 point sources
+
+##################### Pass the parameters #################
+# Line 1: pixel numbers in x, y and z directions. The third value refers to the number of slices.
+# Line 2: pixel size in x, y and z directions.
+# Line 3: the data type (1 for int type and 2 for float type)
+# Line 4: orientation of the phantom (1 for vertical placement; 2 for horizontal placement)  
+###########################################################

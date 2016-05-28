@@ -1,0 +1,17 @@
+1
+1
+5.0
+1.0
+1
+
+
+
+######################### Pass the parameters ###########
+# Line 1: The type of the nuclides (1 for Tc-99m; 2 for I-123; 3 for Co-57; 
+#         4 for In-111; 5 for Tl-201; 6 for I-131);
+# Line 2: Source type (1 for point source; 2 for cylinder source; 3 for Jaszczak source);
+# Line 3: The radius of the source volume (uint: cm);
+# Line 4: The halfZ of the source volume  (uint: cm);
+# Line 5: Jaszczak phantom (1 for standard; 2 for ultra_deluxe; 3 for deluxe; 4 for benchmark);
+#########################################################
+

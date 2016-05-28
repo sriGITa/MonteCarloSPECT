@@ -1,0 +1,10 @@
+mkdir Simulation_data
+cat 1/result/windowenergy.xls 2/result/windowenergy.xls 3/result/windowenergy.xls 4/result/windowenergy.xls 5/result/windowenergy.xls 6/result/windowenergy.xls 7/result/windowenergy.xls 8/result/windowenergy.xls 9/result/windowenergy.xls 10/result/windowenergy.xls 11/result/windowenergy.xls 12/result/windowenergy.xls >Simulation_data/total-win-energy.txt
+cat 1/result/counts_run.xls   2/result/counts_run.xls   3/result/counts_run.xls   4/result/counts_run.xls   5/result/counts_run.xls   6/result/counts_run.xls   7/result/counts_run.xls   8/result/counts_run.xls   9/result/counts_run.xls   10/result/counts_run.xls   11/result/counts_run.xls   12/result/counts_run.xls   >Simulation_data/counts.txt
+cat 1/result/differentrun.xls 2/result/differentrun.xls 3/result/differentrun.xls 4/result/differentrun.xls 5/result/differentrun.xls 6/result/differentrun.xls 7/result/differentrun.xls 8/result/differentrun.xls 9/result/differentrun.xls 10/result/differentrun.xls 11/result/differentrun.xls 12/result/differentrun.xls >Simulation_data/total-energy.txt
+cat 1/result/differentcounts.xls 2/result/differentcounts.xls 3/result/differentcounts.xls 4/result/differentcounts.xls 5/result/differentcounts.xls 6/result/differentcounts.xls 7/result/differentcounts.xls 8/result/differentcounts.xls 9/result/differentcounts.xls 10/result/differentcounts.xls 11/result/differentcounts.xls 12/result/differentcounts.xls >Simulation_data/total-counts.txt
+cat 1/result/windowcounts.xls 2/result/windowcounts.xls 3/result/windowcounts.xls 4/result/windowcounts.xls 5/result/windowcounts.xls 6/result/windowcounts.xls 7/result/windowcounts.xls 8/result/windowcounts.xls  9/result/windowcounts.xls 10/result/windowcounts.xls 11/result/windowcounts.xls 12/result/windowcounts.xls >Simulation_data/total-win-counts.txt
+cat 1/index.txt 1/indexes.txt >Simulation_data/readme.txt
+cat 1/vis.mac 2/vis.mac 3/vis.mac 4/vis.mac 5/vis.mac 6/vis.mac 7/vis.mac 8/vis.mac 9/vis.mac 10/vis.mac 11/vis.mac 12/vis.mac >Simulation_data/runorder.txt
+
+

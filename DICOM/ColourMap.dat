@@ -1,0 +1,29 @@
+8
+Air             0.0     0.0     0.0     1.0
+soft_tissue     1.0     0.0     1.0     1.0
+Water           1.0     1.0     0.0     1.0
+Muscle          0.5     0.5     0.5     1.0
+Liver           0.0     1.0     1.0     1.0
+TrabecularBone  1.0     0.0     1.0     1.0
+DenseBone       0.4     0.4     0.1     1.0
+material        red     green   blue    opacity
+
+#Air            black     0.207
+#LungInhale     red       0.481
+#LungExhale     green     0.919
+#AdiposeTissue  blue      0.979
+#Breast         white     1.004
+#Water          yellow    1.043
+#Muscle         gray      1.109
+#Liver          cyan      1.113
+#TrabecularBone magenta   1.496
+#DenseBone      brown     1.654
+#soft _tissue   purple    1.000
+
+#LungInhale      1.0     0.0     0.0     1.0
+#LungExhale      0.0     1.0     0.0     1.0
+#AdiposeTissue   0.0     0.0     1.0     1.0
+#Breast          1.0     1.0     1.0     1.0
+
+
+

@@ -1,0 +1,34 @@
+gpsorgun=1
+sourcetocollimator=10
+halfLengofcollimator=1.00
+materialofcollimator=2
+materialofdetector=1 
+attenuation=3
+disorcon=1
+number=6
+radius1=0.67
+radius2=0.7
+phantomtype=3
+radius=10.0
+
+
+
+
+
+
+
+########################### Pass the parameters ##################
+# Line 1: choose gps or gun to be the source generator (1 for gun; 2 for GPS)
+# Line 2: distance from source to collimator surface (unit: cm)
+# Line 3: half of the length of the collimator (unit: cm)
+# Line 4: material of the collimator (1 for W-19.34g/cm3; 2 for W-17.0g/cm3; 3 for lead)
+# Line 5: material of the detector (1 for CZT; 2 for NaI)
+# Line 6: attenuation type (1 for Hoffman phantom attenuation; 2 for user defined attenuation; 3 for water attenuation)
+# Line 7: disorcon (1 for discrete detector; 2 for continuous detector)
+# Line 8: collimator shape (1 for uniform array of circle holes; 2 for uniform array of hexagonal holes; 3 for uniform array of rectangular holes)
+# (4 for PGM circle holes; 5 for PGM hexagonal holes; 6 for PGM rectangular holes)
+# Line 9: radius defined for the hole with half length (unit: mm)
+# Line 10: the other radius defined for the hole with half length (unit: mm)
+# Line 11: activity type (gun: 1 for hoffman phantom; 2 for cylinder phantom; 3 for one point; 4 for three points;)
+# Line 12: the radius for the water-filled cylinder (this only takes effect when attenuation = 3)
+#################################################################
